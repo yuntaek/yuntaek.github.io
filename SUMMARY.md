@@ -2,11 +2,11 @@
 
 * [Initial page](README.md)
 
-## operation
+## Debian 패키징 <a id="undefined"></a>
 
-* [Debian 패키지](operation/debian.md)
-* [Nodejs 패키징](operation/nodejs.md)
-* [Packaging from source](operation/packaging-from-source.md)
+* [Debian 패키지](undefined/debian.md)
+* [Nodejs 패키징](undefined/nodejs.md)
+* [Packaging from source](undefined/packaging-from-source.md)
 
 ## developement <a id="developer"></a>
 
