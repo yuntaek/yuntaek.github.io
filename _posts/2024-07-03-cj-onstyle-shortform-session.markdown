@@ -20,15 +20,19 @@ categories: AWS CJOnstyle
 | 03:00PM - 05:00PM | Shortform | shortform enablement | SA  기철민 | |
 
 
-## Gen-AI Claude3 Hands-On 안내
+# Gen-AI Claude3 Hands-On 안내
 
-### console 접근방법
+## workshop link
+-  김지휘 : [https://catalog.us-east-1.prod.workshops.aws/join?access-code=dbc1-1977fb-8f](https://catalog.us-east-1.prod.workshops.aws/join?access-code=dbc1-1977fb-8f)
+-  송진호 : [https://catalog.us-east-1.prod.workshops.aws/join?access-code=9b9e-179d91-d3](https://catalog.us-east-1.prod.workshops.aws/join?access-code=9b9e-179d91-d3)
+-  김채원 : [https://catalog.us-east-1.prod.workshops.aws/join?access-code=0cd2-163cbf-b9](https://catalog.us-east-1.prod.workshops.aws/join?access-code=0cd2-163cbf-b9)
+- 현훈범 : [https://catalog.us-east-1.prod.workshops.aws/join?access-code=df02-1a7d2b-29](https://catalog.us-east-1.prod.workshops.aws/join?access-code=df02-1a7d2b-29)
+- 신영화 : [https://catalog.us-east-1.prod.workshops.aws/join?access-code=e544-17ecb1-3d](https://catalog.us-east-1.prod.workshops.aws/join?access-code=e544-17ecb1-3d)
+- 성홍규 : [https://catalog.us-east-1.prod.workshops.aws/join?access-code=3732-1e359c-6f](https://catalog.us-east-1.prod.workshops.aws/join?access-code=3732-1e359c-6f)
 
-1. AWS 주최 행사에서 운영자가 배포한 12자리 이벤트 접근 코드가 필요합니다.
+## console 접근방법
 
-2. 워크샵 스튜디오 가입 URL: :link[여기]{href="https:/catalog.us-east-1.prod.workshops.aws/join" external="true"}를 통해 로그인하세요!
-![signin](/img/signin.png)
-![eventaccess](/img/eventaccess.png)
+1. 각 사용자별로 지정된 링크를 이용해서 워크샵 스튜디오에 로그인 합니다.
 
 3. 이 이벤트와 관련된 약관을 주의 깊게 검토한 후, **Join event**를 클릭하세요.
 ![joinevent](/img/joinevent.png)
@@ -40,7 +44,7 @@ categories: AWS CJOnstyle
 
 ---
 
-### bedrock model Access
+## bedrock model Access
 
 2. Model access 화면에서 오른쪽 상단 버튼 **"Enable specific models"** 를 클릭합니다:
 ![모델 액세스](/img/modelaccess_1.png)
@@ -58,7 +62,7 @@ categories: AWS CJOnstyle
 
 ---
 
-### sagemaker notebook instance 설정
+## sagemaker notebook instance 설정
 
 1. Amazon SageMaker를 search 창에 입력하고, 해당 서비스 콘솔창으로 이동합니다.
 ![sagemaker1](/img/SearchSageMaker.jpg)
@@ -90,9 +94,9 @@ categories: AWS CJOnstyle
 10. 파일 브라우저 버튼을 눌러 필요한 노트북을 실행시킵니다.
 ![](/img/readyToWorkshop.png)
 
-## Shortform Hands-On 안내
+# Shortform Hands-On 안내
 
-## 피드팩
-URL : https:/pulse.aws/survey/4SQC9PFY <br/>
+# 피드팩
+URL : [https:/pulse.aws/survey/4SQC9PFY](https:/pulse.aws/survey/4SQC9PFY) <br/>
 
 <img src="/img/QRCode.png" alt="QRCODE SA" width="200" >
