@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-02T18:54:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Enablements</title><subtitle></subtitle><entry><title type="html">CJ Onstyle - Shorform GEN AI Workshop</title><link href="http://localhost:4000/aws/cjonstyle/2024/07/02/cj-onstyle-shortform-session.html" rel="alternate" type="text/html" title="CJ Onstyle - Shorform GEN AI Workshop" /><published>2024-07-02T10:11:44+09:00</published><updated>2024-07-02T10:11:44+09:00</updated><id>http://localhost:4000/aws/cjonstyle/2024/07/02/cj-onstyle-shortform-session</id><content type="html" xml:base="http://localhost:4000/aws/cjonstyle/2024/07/02/cj-onstyle-shortform-session.html"><![CDATA[<p><img src="/img/aws-background.png" alt="aws Logo" width="100%" /><br /></p>
+
+<h2 id="location">Location</h2>
+
+<ul>
+  <li>18층 100호 화랑도</li>
+</ul>
+
+<hr />
+
+<h2 id="time-table">Time Table</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>At Time</th>
+      <th>Seesion</th>
+      <th>Session Agendat</th>
+      <th>Speaker</th>
+      <th>Seesion 자료</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01:00PM - 03:00PM</td>
+      <td>GenAI-Cldue3</td>
+      <td>Prompt Engineering</td>
+      <td>SA 임윤택 <br /> SA 이상욱</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>03:00PM - 05:00PM</td>
+      <td>Shortform</td>
+      <td>shortform enablement</td>
+      <td>SA  기철민</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="gen-ai-claude3-hands-on-안내">Gen-AI Claude3 Hands-On 안내</h2>
+
+<h3 id="console-접근방법">console 접근방법</h3>
+
+<ol>
+  <li>
+    <p>AWS 주최 행사에서 운영자가 배포한 12자리 이벤트 접근 코드가 필요합니다.</p>
+  </li>
+  <li>
+    <p>워크샵 스튜디오 가입 URL: :link[여기]{href=”https:/catalog.us-east-1.prod.workshops.aws/join” external=”true”}를 통해 로그인하세요!
+<img src="/img/signin.png" alt="signin" />
+<img src="/img/eventaccess.png" alt="eventaccess" /></p>
+  </li>
+  <li>
+    <p>이 이벤트와 관련된 약관을 주의 깊게 검토한 후, <strong>Join event</strong>를 클릭하세요.
+<img src="/img/joinevent.png" alt="joinevent" /></p>
+  </li>
+  <li>
+    <p>이벤트에 가입한 후, 이벤트 정보와 워크샵 세부 사항이 있는 페이지를 볼 수 있습니다. 왼쪽 탐색 창에서 <strong>AWS account access</strong> 섹션도 볼 수 있습니다. 이 옵션을 사용하여 제공된 임시 AWS 계정에 접근할 수 있습니다.
+<img src="/img/awsaccess.png" alt="AWSAccess" /></p>
+  </li>
+  <li>
+    <p><strong>Open AWS console</strong> 링크를 통해 AWS 관리 콘솔 홈페이지를 열 수 있습니다. 이는 각 서비스에 접근할 수 있는 표준 AWS 콘솔입니다. 워크샵 인프라는 특정 리전에 배포되므로 해당 리전에서만 접근할 수 있습니다.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="bedrock-model-access">bedrock model Access</h3>
+
+<ol>
+  <li>
+    <p>Model access 화면에서 오른쪽 상단 버튼 <strong>“Enable specific models”</strong> 를 클릭합니다:
+<img src="/img/modelaccess_1.png" alt="모델 액세스" /></p>
+  </li>
+  <li>Model access 화면에서 <strong>다음 모델만 선택</strong> 하고 <strong>“Next”</strong> 버튼을 클릭합니다:
+    <ul>
+      <li>Anthropic</li>
+    </ul>
+    <ul>
+      <li>Claude 3 Sonnet</li>
+      <li>Claude 3 Haiku
+<img src="/img/modelaccess_2.png" alt="모델 액세스 요청" /></li>
+    </ul>
+  </li>
+  <li>모델 요청 내용을 리뷰하고 <strong>“Submit”</strong> 버튼을 클릭합니다<img src="/img/modelaccess_3.png" alt="모델 리뷰" />
+설정이 완료되었습니다. lessons로 진행해 주세요.</li>
+</ol>
+
+<p>⌛ 모델 액세스 프로세스가 완료되기까지 <strong>최대 5분</strong> 정도 걸릴 수 있습니다. ⌛</p>
+
+<hr />
+
+<h3 id="sagemaker-notebook-instance-설정">sagemaker notebook instance 설정</h3>
+
+<ol>
+  <li>
+    <p>Amazon SageMaker를 search 창에 입력하고, 해당 서비스 콘솔창으로 이동합니다.
+<img src="/img/SearchSageMaker.jpg" alt="sagemaker1" /></p>
+  </li>
+  <li>
+    <p>왼쪽 패널에 있는 nootbook을 선택하여 미리 설치된 Notebook Instances <strong>“PromptEngWithAntoropicNotebook”</strong> 을 목록에서 확인합니다. Actions의 <strong>Open JupyterLab</strong> 을 눌러서 실행합니다.
+<img src="/img/sagemaker_3.png" alt="notebook" /></p>
+  </li>
+  <li>
+    <p>노브북 인스턴스에서 최상단 root로 이동합니다.
+<img src="/img/moveToRoot.png" alt="" /></p>
+  </li>
+  <li>
+    <p>이전에 설치된 rpository를 삭제합니다.
+<img src="/img/deleteFiles.png" alt="" /></p>
+  </li>
+  <li>
+    <p>새로 repository로 clone 하기위해 <strong>“Git Clone”</strong> 버튼을 클릭합니다. 
+<img src="/img/cloneRepo_1.png" alt="" /></p>
+  </li>
+  <li>
+    <p>팝업창의 “https:/github.com/yuntaek/prompt-engineering-with-anthropic-claude-v-3.git” 해당 repository 주소를 입력하여 “clone”버튼을 누릅니다.
+<img src="/img/cloneRepor_2.png" alt="" /></p>
+  </li>
+  <li>
+    <p>왼쪽 “Git” Icon을 누룹니다.
+<img src="/img/changeBranch_1.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Branch를 oringin/kr로 변경합니다.
+<img src="/img/changeBranch_2.png" alt="" /></p>
+  </li>
+  <li>
+    <p>current Brach가 kr인것을 확인합니다.
+<img src="/img/changeBranch_3.png" alt="" /></p>
+  </li>
+  <li>
+    <p>파일 브라우저 버튼을 눌러 필요한 노트북을 실행시킵니다.
+<img src="/img/readyToWorkshop.png" alt="" /></p>
+  </li>
+</ol>
+
+<h2 id="shortform-hands-on-안내">Shortform Hands-On 안내</h2>
+
+<h2 id="피드팩">피드팩</h2>
+<p>URL : https:/pulse.aws/survey/4SQC9PFY <br /></p>
+
+<p><img src="/img/QRCode.png" alt="QRCODE SA" width="200" /></p>]]></content><author><name></name></author><category term="AWS" /><category term="CJOnstyle" /><summary type="html"><![CDATA[]]></summary></entry></feed>
