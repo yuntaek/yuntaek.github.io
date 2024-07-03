@@ -99,6 +99,6 @@ categories: AWS CJOnstyle
 # Shortform Hands-On 안내
 
 # 피드팩
-URL : [https:/pulse.aws/survey/4SQC9PFY](https:/pulse.aws/survey/4SQC9PFY) <br/>
+URL : [https:/pulse.aws/survey/4SQC9PFY](https://pulse.aws/survey/4SQC9PFY) <br/>
 
 <img src="/img/QRCode.png" alt="QRCODE SA" width="200" >
