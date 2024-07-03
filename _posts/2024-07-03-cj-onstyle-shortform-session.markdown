@@ -45,6 +45,8 @@ categories: AWS CJOnstyle
 ---
 
 ## bedrock model Access
+1. AWS 콘솔에서 **Amazon Bedrock** 콘솔에 액세스하고 왼쪽 메뉴에서 **Model access**를 클릭합니다:
+![모델 액세스](/img/20-bedrock-access.png)
 
 2. Model access 화면에서 오른쪽 상단 버튼 **"Enable specific models"** 를 클릭합니다:
 ![모델 액세스](/img/modelaccess_1.png)
@@ -79,7 +81,7 @@ categories: AWS CJOnstyle
 5. 새로 repository로 clone 하기위해 **"Git Clone"** 버튼을 클릭합니다. 
 ![](/img/cloneRepo_1.png)
 
-6. 팝업창의 "https:/github.com/yuntaek/prompt-engineering-with-anthropic-claude-v-3.git" 해당 repository 주소를 입력하여 "clone"버튼을 누릅니다.
+6. 팝업창의 **"https://github.com/yuntaek/prompt-engineering-with-anthropic-claude-v-3.git"** 해당 repository 주소를 입력하여 "clone"버튼을 누릅니다.
 ![](/img/cloneRepor_2.png)
 
 7. 왼쪽 "Git" Icon을 누룹니다.
